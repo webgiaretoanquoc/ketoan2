@@ -1,0 +1,493 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.section-doi-tac .box-text{
+	display: none;
+}
+.div-tab .tab-panels{
+	padding-top: 0px;
+}
+#content_banggia ol li{
+	font-size:90%;
+}
+#content_banggia{
+	background: #fff;
+	padding: 10px;
+	/* height: 180px; */
+	/* width: 485px; */
+	position: relative;
+	z-index: 2;
+	border-radius: 0 5px 5px 5px;
+	box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+#content_banggia p{
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.div-tab ul.nav-simple li a{
+	position: relative;
+	background-image: linear-gradient(to bottom, #006AB6, #124f7b);
+	padding: .7em 1.5em;
+	float: left;
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 5px 0 0 0;
+	box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+.div-tab ul.nav-simple li a:after{
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -.5em;
+	bottom: 0;
+	width: 1em;
+	background-image: linear-gradient(to bottom, #006AB6, #124f7b);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	transform: skew(10deg);
+	border-radius: 0 5px 0 0;
+}
+#ke-toan li {
+	list-style: none;
+	position: relative;
+	margin: 7px 0;
+}
+#ke-toan li:before {
+	content: '\f046';
+	font-family: 'FontAweSome';
+	color: #d30000;
+	margin-right: 5px;
+}
+#ke-toan{
+	background: #F8F8F8;
+	margin-bottom: 1.5em;
+	border: 1.5px dashed #006fb1;
+	padding: 28px;
+	border-radius: 8px;
+}
+
+.div-anh-lien-ket img{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.div-widget-dich-vu ul.ul-reset > li{
+	margin-left: 0px;
+}
+.div-widget-dich-vu ul.menu li{
+	width: 50%;float: left;
+}
+.section-title-container{
+	margin-bottom: 5px;
+}
+.wpcf7-submit{
+	font-weight: bold !important;
+}
+.div-tu-van{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+#text-5,#text-8{
+	background: #E1DDA3; 
+}
+#text-5 p,#text-8 p{
+	margin-bottom: 4px;
+}
+#text-8 .textwidget{
+	padding: 10px;
+}
+#breadcrumbs span{
+	color: #006AB6;
+}
+#breadcrumbs img{
+	margin-top: -7px;
+}
+#breadcrumbs span{
+	text-transform: uppercase;
+}
+#breadcrumbs{
+	text-transform: uppercase;
+	padding: 8px;
+	background: #f7f7f7;
+	border: 1px solid #ececec;
+}
+.section-dich-vu h4{
+	color: #006AB6;
+}
+.p-dich-vu{
+	min-height:50px;
+}
+.call-now-button .call-text{
+	font-size:18px;
+	font-weight: bold;
+}
+.blog-archive h5.post-title{
+	min-height:61px;
+}
+.blog-archive .from_the_blog_excerpt {
+	height: 40px;
+	overflow: hidden;
+}
+.related-post h5{
+	font-size: 14px;
+	min-height: 54px;
+}
+
+.div-tin{
+	background:white;
+}
+.post-sidebar{
+	padding-left: 5px !important;
+	padding-right: 5px !important; 
+}
+.page-left-sidebar .large-3 {
+	padding-right: 5px;
+	border-right: none;
+}
+.sidebar-wrapper  li.widget_text .textwidget{
+	border: 1px solid #ccc;
+	padding: 6px;
+	margin-bottom: 5px;
+}
+.anh-logo img{
+	border: 1px solid #ccc;
+	padding: 1px;
+	margin-bottom: 4px !important;
+}
+.tin-moi h5{
+	min-height: 57px;
+}
+#dang-ky .form-giai-dap h3{
+	color: white;
+}
+.box-blog-post p{
+	font-size:13px;
+}
+.div-tin .post-item{
+	padding-bottom: 14px;
+}
+h3.title-home-tren{
+	font-size: 28px;
+	color: #006ab6;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.div-ke-toan  .col-inner{
+	min-height: 138px;
+}
+.dich-dich-vu{
+	text-align: center;
+}
+.box-text .post-title{
+	color: #006ab6;
+}
+.dich-dich-vu i{
+	margin-bottom: 19px;
+	background: #006ab6;
+	font-size: 50px;
+	color: white;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+}
+.blog-single .single-page h2, .blog-single .single-page  h3, .blog-single .single-page  h4 {
+	padding-top: 18px !important;
+	background: url(images/icon-i.png) no-repeat 0px 14px;
+	padding: 20px;
+	padding-left: 40px;
+	font-size: 20px;
+	color: #3498db;
+	padding-bottom: 5px;
+	background-size: 35px;
+}
+.blog-single .single-page ul{
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+
+	padding: 13px 15px;
+	border: 1px solid #e1e1e1;
+	background: #fff;
+	margin: 10px 0;
+	list-style: none;
+}
+b, strong {
+	font-weight: bold !important;
+}
+ul.dichvu li{
+	padding: 10px !important;
+	text-align: center;
+}
+.row-divided>.col+.col:not(.large-12) {
+	border-left: none;
+}
+.blog-single .single-page ul li{
+	background: url(images/bg_li.png) no-repeat 3px 7px;
+	padding-left: 20px;
+}
+.entry-content{
+	padding-top: 0px;
+}
+.div-widget .sidebar-wrapper ul.menu {
+	border: 1px solid #ddd;
+
+	background: #F9F5F5;
+}
+.dichvu li:nth-child(1) {
+	background: #5dca9d;
+}
+.dichvu br{
+	display: none;
+}
+.dichvu p{
+	margin-bottom: 5px;
+}
+.dichvu li:nth-child(2) {
+	background: #ea5644;
+}
+.dichvu li:nth-child(3) {
+	background: #f3cc0c;
+}
+.dichvu li h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 8px;
+}
+.dichvu li p {
+	color: white;
+	font-size: 12px;
+}
+.dichvu li {
+	display: block;
+	position: relative;
+	padding: 11px 20px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border: 5px solid #eee;
+}
+.sidebar-wrapper ul.menu li a,#secondary ul.menu li a{
+	font-size: 14px;
+	padding-left: 10px;
+
+}
+.section-footer{
+	border-top: 1px solid #dadada;
+}
+.section-footer .your-email{
+	width: 70%;
+	float: left;
+}
+.section-tin-moi h5{
+	min-height: 57px;
+}
+.absolute-footer{
+	display: none;
+}
+.section-footer p,.section-footer ul li a{
+	font-size:14px !important;
+}
+.sidebar-wrapper .widget-title,.sidebar-wrapper .widgettitle,#secondary .widget-title{
+	padding: 9px 5px 9px 11px;
+	background: #006ab6;
+	display: block;
+	clear: both;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0;
+	text-transform: uppercase;
+
+}
+.div-tin .box-image img{
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+.div-tin .box-vertical h5{
+	font-size:15px;
+	font-weight: normal;
+}
+h3.title-home{
+	background: #006ab6;
+	padding: 4px 14px;
+	color: #fff;
+	font-size: 18px;
+}
+.widget .is-divider ,.box-text .is-divider{
+	display: none;
+}
+.sidebar-wrapper .widget_nav_menu{
+	margin-bottom: 10px;
+}
+.div-no-padding{
+	padding-bottom: 0px !important;
+}
+.div-ke-toan .col-inner{
+	padding: 15px !important;
+	background: #fff;  
+}
+
+.sidebar-wrapper ul li,#secondary  ul.menu li{
+	background: #f9f5f5 url(images/ic-arrow.png) no-repeat scroll 6px center;
+	line-height: 15px;
+	padding: 4px 4px 0px 22px;
+}
+.section .form-giai-dap h3{
+	text-align: center;
+	color: white !important;
+}
+.form-giai-dap .wpcf7-submit{
+	background: #D00132 !important;
+	border-radius: 12px;
+}
+.form-giai-dap{
+	background: #006AB6;
+	padding: 15px 16px 15px 20px;
+	box-shadow: 0px 17px 35px rgba(44, 64, 217, 0.42), 0px 5px 15px rgba(59, 73, 153, 0.59);
+	overflow: hidden;
+	border-radius: 10px;
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	color: #02AEEE;
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	color: #02AEEE;
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+html, body {overflow-x: hidden;}
+@media(max-width: 855px){
+	.div-widget-dich-vu ul.menu li {
+		min-height: 50px;}
+	.div-ke-toan .img{
+		width: 25% !important;
+	}
+	.dich-dich-vu i {
+		margin-bottom: 19px;
+		background: #006ab6;
+		font-size: 56px;
+		color: white;
+		width: 80px;
+		height: 80px;
+		line-height: 81px;
+		border-radius: 50%;
+	}
+	.sidebar-wrapper li{
+		margin-left: 0px !important;
+	}
+	#dang-ky .form-giai-dap h3{
+		text-align: center;
+	}
+	#dang-ky{
+		padding: 0px !important;
+		border-radius: 10px;
+	}
+	.header-main ul.nav-right li a{
+		color: white;
+	}
+	.header-main ul.nav-right{
+		min-width: 167px;
+	}
+	.box-vertical .box-text {
+		padding-top: 27px;
+		margin-right: 0px;
+		/* width: 66%; */
+		padding-bottom: 0px;
+		padding-left: 124px;
+		padding-right: 2px;
+	}
+	.box-vertical .box-image {
+		margin-right: 9px;
+		width: 33% !important;
+		float: left;
+	}
+}
+@media(min-width: 1023px){
+	#content_banggia{
+		min-height: 280px;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
